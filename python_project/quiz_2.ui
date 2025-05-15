@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>556</width>
-    <height>719</height>
+    <width>562</width>
+    <height>701</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -48,95 +48,11 @@
     }
    </string>
   </property>
-  <widget class="QGroupBox" name="groupBox">
-   <property name="geometry">
-    <rect>
-     <x>40</x>
-     <y>310</y>
-     <width>471</width>
-     <height>321</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>14</pointsize>
-     <weight>50</weight>
-     <bold>false</bold>
-     <underline>false</underline>
-    </font>
-   </property>
-   <property name="title">
-    <string>Select the correct answer:</string>
-   </property>
-   <property name="flat">
-    <bool>false</bool>
-   </property>
-   <widget class="QRadioButton" name="radioButton_A">
-    <property name="geometry">
-     <rect>
-      <x>50</x>
-      <y>60</y>
-      <width>381</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>A. Dictionary
-
-</string>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButton_B">
-    <property name="geometry">
-     <rect>
-      <x>50</x>
-      <y>120</y>
-      <width>381</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>B. Tuple
-
-</string>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButton_C">
-    <property name="geometry">
-     <rect>
-      <x>50</x>
-      <y>180</y>
-      <width>381</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>C. List
-
-</string>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButton_D">
-    <property name="geometry">
-     <rect>
-      <x>50</x>
-      <y>240</y>
-      <width>381</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>D. Set
-
-</string>
-    </property>
-   </widget>
-  </widget>
   <widget class="QPushButton" name="back_button">
    <property name="geometry">
     <rect>
-     <x>80</x>
-     <y>650</y>
+     <x>90</x>
+     <y>600</y>
      <width>181</width>
      <height>51</height>
     </rect>
@@ -155,13 +71,146 @@
     <string>Back</string>
    </property>
   </widget>
-  <widget class="QLabel" name="quizQuestion">
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>270</y>
+     <width>471</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="title">
+    <string>Select the correct answer:</string>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+   <widget class="QRadioButton" name="radioButton_A">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>60</y>
+      <width>381</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A. add()</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_B">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>120</y>
+      <width>381</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>B. insert()
+</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_C">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>180</y>
+      <width>381</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C. extend()
+</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="quiz_3">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>240</y>
+      <width>381</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>D. update()
+</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="logoImage">
    <property name="geometry">
     <rect>
      <x>40</x>
-     <y>140</y>
+     <y>20</y>
+     <width>61</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="pixmap">
+    <pixmap>pylogo.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="nextButton">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>600</y>
+     <width>181</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Next</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="logoLabel">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>30</y>
+     <width>200</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>PYLearn</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="quizQuestion">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>120</y>
      <width>471</width>
-     <height>151</height>
+     <height>150</height>
     </rect>
    </property>
    <property name="minimumSize">
@@ -175,8 +224,12 @@
      <pointsize>14</pointsize>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
-    <string> A data structure that stores key-value pairs</string>
+    <string>2. Which method would you use to add elements from another iterable to the end of a list?
+</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>
@@ -189,64 +242,19 @@
    <property name="geometry">
     <rect>
      <x>90</x>
-     <y>100</y>
+     <y>80</y>
      <width>360</width>
      <height>30</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">font: 12pt &quot;Segoe UI&quot;;</string>
+    <string notr="true"/>
    </property>
    <property name="text">
-    <string>QUESTION 6</string>
+    <string>QUESTION 2</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
-  <widget class="QLabel" name="logoImage">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
-     <y>20</y>
-     <width>61</width>
-     <height>61</height>
-    </rect>
-   </property>
-   <property name="pixmap">
-    <pixmap>pylogo.png</pixmap>
-   </property>
-   <property name="scaledContents">
-    <bool>true</bool>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="nextButton">
-   <property name="geometry">
-    <rect>
-     <x>280</x>
-     <y>650</y>
-     <width>181</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Next</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="logoLabel">
-   <property name="geometry">
-    <rect>
-     <x>100</x>
-     <y>30</y>
-     <width>200</width>
-     <height>40</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">font: 18pt &quot;Segoe UI&quot;; color: #ffd345;</string>
-   </property>
-   <property name="text">
-    <string>PYLearn</string>
    </property>
   </widget>
  </widget>
